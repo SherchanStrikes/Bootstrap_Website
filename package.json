@@ -1,0 +1,25 @@
+{
+  "homepage": "http://SherchanStrikes.github.io/Bootstrap_Website",
+  "name": "bootstrap_website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy":"gh-pages -d build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SherchanStrikes/Bootstrap_Website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SherchanStrikes/Bootstrap_Website/issues"
+  },
+  "homepage": "https://github.com/SherchanStrikes/Bootstrap_Website#readme",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
